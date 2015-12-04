@@ -1,0 +1,51 @@
+.container {
+	width: 100%;
+	text-align: center;
+	margin: 20px auto;
+}
+
+.map-holder {
+	max-width: 500px;
+	height: 350px;
+	margin: 0;
+	background-color: #FCFCFC;
+	position: relative;
+	border-radius: 2px;
+}
+
+.message-holder {
+	max-width: 500px;
+	height: 300px;
+	margin: 10px 0 0 0;
+	background-color: #FCFCFC;
+	border-radius: 2px;
+}
+
+.map-holder p {
+	position: absolute;
+	width: 84px;
+	height: 22px;
+	left: 50%;
+	top: 50%;
+	margin: -11px auto 0 -42px;
+	font-size: 20px;
+	color: #969FA8;
+}
+
+#map {
+	max-width: 500px;
+	height: 350px;
+	margin: 0 auto;
+}
+
+#geocoding_form {
+	margin: 10px 0 0 0;
+}
+
+.area {
+	margin: 0 15px 0 15px;
+}
+
+.area button {
+	margin-top: 10px;
+}
