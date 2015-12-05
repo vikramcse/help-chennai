@@ -7,13 +7,13 @@ var MessageForm = React.createClass({
 		};
 	},
 	handleChange() {
-		this.setState({value: event.target.value});
+		this.setState({
+			value: event.target.value
+		});
 	},
 	handleSubmit(event) {
 		event.preventDefault();
 		this.props.onSearch(this.state.value);
-		// Unfocus the text input field
-		this.getDOMNode().querySelector('input').blur();
 	},
 	render() {
 		return (

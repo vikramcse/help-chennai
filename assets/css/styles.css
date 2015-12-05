@@ -1,11 +1,11 @@
 .container {
 	width: 100%;
 	text-align: center;
-	margin: 20px auto;
+	margin: 50px auto;
 }
 
 .map-holder {
-	max-width: 500px;
+	max-width: 100%;
 	height: 350px;
 	margin: 0;
 	background-color: #FCFCFC;
@@ -14,7 +14,7 @@
 }
 
 .message-holder {
-	max-width: 500px;
+	width: 100%;
 	height: 300px;
 	margin: 10px 0 0 0;
 	background-color: #FCFCFC;
@@ -33,7 +33,7 @@
 }
 
 #map {
-	max-width: 500px;
+	max-width: 100%;
 	height: 350px;
 	margin: 0 auto;
 }
@@ -49,3 +49,48 @@
 .area button {
 	margin-top: 10px;
 }
+
+.left {
+  width: 49%;
+  float: left;
+  height: 100%;
+}
+
+.right {
+  width: 49%;
+  float: right;
+  height: 100%;
+}
+
+.list-group-item {
+	position: relative;
+	padding: 10px 20px;
+}
+
+a.list-group-item {
+	cursor: pointer;
+}
+
+a.list-group-item:hover {
+	background-color: #F7FBFF;
+}
+
+a.active-location {
+	background-color: #EEF6FF;
+}
+
+a.active-location:hover {
+	background-color: #EBF3FC;
+}
+
+a.list-group-item span.createdAt {
+	display: block;
+	color: #969FA8;
+	z-index: -1;
+}
+
+.pre-scrollable {
+	 max-height: 500px;
+}
+
+

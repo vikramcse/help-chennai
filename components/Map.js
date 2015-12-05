@@ -8,7 +8,7 @@ var Map = React.createClass({
 		this.componentDidUpdate();
 	},
 
-	componentDidUpdate(){
+	componentDidUpdate() {
 
 		if(this.lastLat == this.props.lat && this.lastLng == this.props.lng) {
 
@@ -27,12 +27,13 @@ var Map = React.createClass({
 			lat: this.props.lat,
 			lng: this.props.lng
 		});
-
+		
 		// Adding a marker to the location we are showing
 		map.addMarker ({
 			lat: this.props.lat,
 			lng: this.props.lng
 		});
+
 	},
 
 	render() {
